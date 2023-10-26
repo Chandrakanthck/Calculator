@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <div class="buttons">
+      <button onclick="appendToDisplay('7')" class="curvy-button">7</button>
+      <button onclick="appendToDisplay('8')" class="curvy-button">8</button>
+      <button onclick="appendToDisplay('9')" class="curvy-button">9</button>
+      <button onclick="clearDisplay()" class="curvy-button">C</button>
+      <button onclick="appendToDisplay('4')" class="curvy-button">4</button>
+      <button onclick="appendToDisplay('5')" class="curvy-button">5</button>
+      <button onclick="appendToDisplay('6')" class="curvy-button">6</button>
+      <button onclick="appendToDisplay('+')" class="curvy-button">+</button>
+      <button onclick="appendToDisplay('1')" class="curvy-button">1</button>
+      <button onclick="appendToDisplay('2')" class="curvy-button">2</button>
+      <button onclick="appendToDisplay('3')" class="curvy-button">3</button>
+      <button onclick="appendToDisplay('-')" class="curvy-button">-</button>
+      <button onclick="appendToDisplay('*')" class="curvy-button">*</button>
+      <button onclick="appendToDisplay('0')" class="curvy-button">0</button>
+      <button onclick="appendToDisplay('/')" class="curvy-button">/</button>
+      <button onclick="calculateResult()" class="curvy-button">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
